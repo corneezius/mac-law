@@ -7,6 +7,13 @@
     font-style:normal;
     src:url('../fonts/GothamBlack.otf');
 }
+
+@font-face{
+    font-family:'gotham-thin';
+    font-weight:normal;
+    font-style:normal;
+    src:url('../fonts/gotham/gotham-thin.otf');
+}
 @font-face{
     font-family:'D-DIN-Condensed';
     font-weight:normal;
@@ -187,6 +194,18 @@ h1, h2, h3, h4, h5, h6 {
 .top_logo_info{
 
 }
+.info {
+  border-radius: 16px;
+background: #CAD3D8;
+}
+
+
+
+
+
+
+
+
 .sm_logo{
     padding: 25px 0px;
     max-width: 95%;
@@ -194,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 .sm_top_m_text h2{
     color: #2C2E35;
     font-family: gotham;
-    font-style: italic;
+
     font-size: 26px;
     font-weight: 400;
     text-align: right;
@@ -205,15 +224,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 41px 0px;
 }
 .sm_top_r_text h2{
-    color: #2C2E35;
+    color: #000;
     font-family: gotham;
-    font-style: italic;
-    font-size: 32px;
+
+    font-size: 28px;
 }
 .sm_top_r_text h3 a{
     color: #2C2E35;
     font-family: gotham;
-    font-style: italic;
+
     font-size: 26px;
     font-weight: 400;
 }
@@ -306,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -339,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2C2E35;
   white-space: nowrap;
   transition: 0.3s;
-  position: relative; 
+  position: relative;
   /*gotham, */
   font-family: D-DIN-Condensed;
 }
@@ -433,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #222222;
@@ -1334,4 +1353,38 @@ section {
 .btn_sm:hover{
     background-color: #18D263;
     color: #fff;
+}
+
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 1024px)
+  and (max-height: 1366px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media only screen
+  and (min-width: 1024px)
+  and (max-height: 1366px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .sm_hero_left {
+    padding-top: 80%;
+}
+}
+
+/* Landscape */
+@media only screen
+  and (min-width: 1024px)
+  and (max-height: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .sm_hero_left {
+    padding-top: 47%;
+}
+
 }
