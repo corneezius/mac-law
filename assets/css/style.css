@@ -1494,6 +1494,20 @@ font-family: D-DIN-Condensed;
 font-size: 65px;
 }
 
+.hugh-text {
+    font-family: D-DIN-Condensed;
+    color: white;
+    font-size: 21px;
+}
+
+.hugh-text-head {
+  font-family: D-DIN-Condensed;
+    color: white;
+    font-size: 29px;
+}
+
+
+
 @media (min-width:768px){
 
 
@@ -1501,6 +1515,18 @@ font-size: 65px;
     text-align: right;
   font-family: D-DIN-Condensed;
   font-size: 80px;
+  }
+
+  .hugh-text {
+    font-family: D-DIN-Condensed;
+  color: white;
+  font-size: 24px;
+  }
+
+  .hugh-text-head {
+    font-family: D-DIN-Condensed;
+      color: white;
+      font-size: 50px;
   }
 
 }
