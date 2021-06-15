@@ -286,7 +286,7 @@ background: #CAD3D8;
 }
 
 #header.fixed-top {
-  background-color: #CAD3D8;
+  background-color: #607683;
   transition: all 0.5s;
   z-index: 997;
   height: 60px;
@@ -355,7 +355,7 @@ background: #CAD3D8;
   padding: 0 3px;
   font-size: 28px;
   font-weight: 600;
-  color: #2C2E35;
+  color: white;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -388,7 +388,7 @@ background: #CAD3D8;
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #607683;
+  color: black;
 }
 
 .navbar .dropdown ul {
