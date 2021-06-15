@@ -197,6 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 .info {
   border-radius: 16px;
 background: #CAD3D8;
+border-color:transparent;
 }
 
 
