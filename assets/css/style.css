@@ -660,7 +660,7 @@ border-color:transparent;
     padding: 20px 0px;
 }
 .slider_below h2{
-    font-family: gotham;
+    font-family: 'D-DIN-Condensed';
     font-size: 18px;
     color: #fff;
     padding: 0px;
@@ -906,9 +906,9 @@ section {
 }
 .straight_talk_right h3{
     margin: 0;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 30px;
     color: #fff;
     font-family: D-DIN-Condensed;
     text-align: left;
