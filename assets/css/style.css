@@ -1073,16 +1073,7 @@ section {
 .contact_head{
     padding-bottom: 30px;
 }
-.contact_head h3 {
-    font-family: D-DIN-Condensed;
-    margin: 0;
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 26px;
-    color: #2C2E35;
-    border-bottom: 1px solid #2C2E35;
-    padding-bottom: 5px;
-}
+
 
 .contact .info-box {
   color: #444444;
@@ -1114,7 +1105,7 @@ section {
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+
   padding: 30px;
 }
 
@@ -1183,7 +1174,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #607683;
+  background: #0a5480;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1491,4 +1482,25 @@ section {
   font-size: 35px;
 
 }
+}
+
+#contact {
+  background:#607683;
+}
+
+.hugh {
+  text-align: center;
+font-family: D-DIN-Condensed;
+font-size: 65px;
+}
+
+@media (min-width:768px){
+
+
+  .hugh {
+    text-align: right;
+  font-family: D-DIN-Condensed;
+  font-size: 80px;
+  }
+
 }
