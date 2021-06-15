@@ -1424,6 +1424,32 @@ section {
 }
 
 
+
+@media (min-width:768px) and (min-height: 1024px){
+
+  #my-text,#my-text-2{
+    position: static;
+  }
+
+  #hero{
+    height: auto;
+  }
+
+}
+
+
+@media (min-width:1024px){
+
+  #hero{
+    height: 100vh;
+  }
+
+}
+
+
+
+
+
 @media (max-width:450px){
   #my-text-2 {
     top: 13em;
