@@ -222,12 +222,12 @@ padding: 10px;
 }
 .sm_top_m_text h2{
     color: #2C2E35;
-    font-family: gotham;
+    font-family: gothambold;
 
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 400;
     text-align: right;
-    padding: 89px 0px 0px 0px
+    padding: 52px 0px 0px 0px;
 }
 .sm_top_r_text{
     text-align: right;
@@ -237,7 +237,7 @@ padding: 10px;
     color: #000;
     font-family: gotham;
 
-    font-size: 20px;
+    font-size: 19px;
 }
 .sm_top_r_text h3 a{
     color: #2C2E35;
