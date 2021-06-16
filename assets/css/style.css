@@ -1573,18 +1573,24 @@ font-weight: initial;
 }
 }
 
+@media (max-width:768px){
+
 #mobile {
   padding:0px;
   z-index:1000;
   position:relative;
 }
 
-
+}
 @media (min-width:768px){
 
 .info {
   padding:6px;
   width:110%;
+}
+
+.atta {
+  display:none;
 }
 
 #mobile {
