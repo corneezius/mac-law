@@ -1573,11 +1573,22 @@ font-weight: initial;
 }
 }
 
+#mobile {
+  padding:0px;
+  z-index:1000;
+  position:relative;
+}
+
+
 @media (min-width:768px){
 
 .info {
   padding:6px;
   width:110%;
+}
+
+#mobile {
+  display:none;
 }
 
   .hugh {
@@ -1614,10 +1625,4 @@ font-weight: initial;
 
 #link-x {
   color:white !important;
-}
-
-#mobile {
-  padding:0px;
-  z-index:1000;
-  position:relative;
 }
