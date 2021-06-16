@@ -9,6 +9,13 @@
 }
 
 @font-face{
+    font-family:'GothamBold';
+    font-weight:normal;
+    font-style:normal;
+    src:url('../fonts/GothamBold.otf');
+}
+
+@font-face{
     font-family:'gotham-thin';
     font-weight:normal;
     font-style:normal;
@@ -198,6 +205,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 16px;
 background: #CAD3D8;
 border-color:transparent;
+width: 110%;
+padding: 10px;
 }
 
 
@@ -228,7 +237,7 @@ border-color:transparent;
     color: #000;
     font-family: gotham;
 
-    font-size: 28px;
+    font-size: 20px;
 }
 .sm_top_r_text h3 a{
     color: #2C2E35;
@@ -265,7 +274,7 @@ border-color:transparent;
         padding: 10px 0px;
     }
     .sm_top_r_text h2{
-        font-size: 24px;
+        font-size: 19px;
         margin-bottom: 0px;
     }
     .sm_top_r_text h3 a{
@@ -355,7 +364,7 @@ border-color:transparent;
   justify-content: space-between;
   padding: 0 3px;
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 700;
   color: white;
   white-space: nowrap;
   transition: 0.3s;
@@ -642,6 +651,8 @@ border-color:transparent;
     #my-text-2 {
         visibility:hidden;
     }
+
+
 }
 
 @media (min-width: 768px) {
@@ -677,7 +688,7 @@ border-color:transparent;
 }
 .slider_below h2{
     font-family: 'D-DIN-Condensed';
-    font-size: 18px;
+    font-size: 28px;
     color: #fff;
     padding: 0px;
     margin: 0px;
@@ -817,6 +828,16 @@ section {
   position: relative;
   margin-bottom: 10px;
 }
+
+#attorney_mobile{
+  padding: 50px 0 140px 0px;
+  background: url("../img/Hugh-w-books2.jpg") no-repeat;
+  background-position: center right;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 10px;
+}
+
 .attorney_pro::before {
   content: "";
   position: absolute;
@@ -865,6 +886,18 @@ section {
     bottom: 40px;
     right: 0px;
 }
+
+.atta h3{
+    color: #fff;
+    font-family: gotham;
+    font-style: italic;
+    font-size: 32px;
+    text-align: right;
+    position: absolute;
+    bottom: -13px;
+
+}
+
 @media (max-width: 768px) {
     .attorney_pro{
         background-position: center center;
@@ -1083,7 +1116,7 @@ section {
     font-size: 16px;
     line-height: 20px;
     color: white;
-    padding: 25px 0px 10px 0px;
+
     text-align: left;
 }
 .contact_head{
@@ -1508,14 +1541,16 @@ section {
 
 .hugh {
   text-align: center;
-font-family: D-DIN-Condensed;
+font-family: GothamBold;
 font-size: 65px;
 }
 
 .hugh-text {
-    font-family: D-DIN-Condensed;
-    color: white;
-    font-size: 21px;
+  font-family: D-DIN-Condensed;
+  color: white;
+  font-size: 21px;
+  margin-bottom: 10px;
+  line-height: 25px;
 }
 
 .hugh-text-head {
@@ -1524,14 +1559,30 @@ font-size: 65px;
     font-size: 29px;
 }
 
+.slider_below h2 {
+font-family: 'D-DIN-Condensed';
+font-size: 25px;
+color: #fff;
+padding: 0px;
+margin: 0px;
+text-align: center;
+font-weight: initial;
+}
+.atta_number {
+  display:none;
+}
 }
 
 @media (min-width:768px){
 
+.info {
+  padding:6px;
+  width:110%;
+}
 
   .hugh {
     text-align: right;
-  font-family: D-DIN-Condensed;
+  font-family: GothamBold;
   font-size: 80px;
   }
 
@@ -1539,6 +1590,8 @@ font-size: 65px;
     font-family: D-DIN-Condensed;
   color: white;
   font-size: 24px;
+  margin-bottom:5px;
+  line-height: 31px;
   }
 
   .hugh-text-head {
@@ -1551,4 +1604,20 @@ font-size: 65px;
 
 .map {
   width:100%;
+}
+
+.footer-t {
+  text-align:center;
+  font-family: D-DIN-Condensed;
+  font-size:18px;
+}
+
+#link-x {
+  color:white !important;
+}
+
+#mobile {
+  padding:0px;
+  z-index:1000;
+  position:relative;
 }
