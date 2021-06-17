@@ -1483,6 +1483,7 @@ section {
     float: none;
     text-align: center;
     padding: 2px 0;
+    margin-top: -15px;
   }
 
   #my-text{
@@ -1676,10 +1677,7 @@ font-family: GothamBold;
 font-size: 53px;
 }
 
-.map {
-  width: 100%;
-  height: 72%;
-}
+
 
 .hugh-text {
   font-family: D-DIN-Condensed;
@@ -1759,19 +1757,78 @@ font-weight: initial;
 
 .footer-t {
   text-align:center;
-  font-family: D-DIN-Condensed;
+  font-family: gothambold;
   font-size:18px;
+  color:black;
+}
+
+.footer-address {
+  text-align: center;
+  margin-bottom: -2px;
+  font-family: 'GothamBold';
+  font-size: 11px;
+  color:black;
+}
+
+.footer-email {
+  text-align: center;
+    margin-bottom: 5px;
+    font-family: "gothambold";
+    font-size: 11px;
+    color:black;
 }
 
 #link-x {
-  color:white !important;
+  color:black !important;
 }
 
 #link-y {
-  color:white !important;
+  color:black !important;
 }
 
 #disclosure {
   padding: 10px;
   background: lightgrey;
 }
+
+.foot-info {
+  display: inline-block;
+  text-align: center;
+}
+
+.foot-info li {
+  display:inline;
+}
+
+.footer-y {
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'GothamBold';
+  font-size: 11px;
+  margin-bottom:1px;
+  color:black;
+}
+
+.copyright p {
+  margin-bottom: 2px;
+  font-size: 11px;
+  font-family: 'GothamBold';
+  color:black;
+}
+
+/* @media (max-width:768px){
+  #footer2{
+    visibility:;hidden;
+  }
+}
+
+
+@media (min-width:768px){
+  #footer {
+    display:none;
+  }
+
+  #footer2{
+    visibility:visible;
+  }
+} */
